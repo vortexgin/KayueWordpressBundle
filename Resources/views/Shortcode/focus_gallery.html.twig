@@ -3,11 +3,13 @@
 {% block kayue_wordpress_bundle_content %}
     {% if before is not empty %}
         <div style="float: left; width: 5%; text-align: center;; font-size: 15pt;">
+            {#<a href="{{ path('kayue_wordpress_shortcode_gallery', {'id': before.id}) }}">«</a>#}
             <a href="{{ path('kayue_wordpress_shortcode_gallery', {'id': before.id}) }}">«</a>
         </div>
     {% endif %}
     {% if after is not empty %}
         <div style="float: right; width: 5%; text-align: center; font-size: 15pt;">
+            {#<a href="{{ path('kayue_wordpress_shortcode_gallery', {'id': after.id}) }}">»</a>#}
             <a href="{{ path('kayue_wordpress_shortcode_gallery', {'id': after.id}) }}">»</a>
         </div>
     {% endif %}
