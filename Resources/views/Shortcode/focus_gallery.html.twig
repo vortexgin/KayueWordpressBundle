@@ -4,13 +4,13 @@
     {% if before is not empty %}
         <div style="float: left; width: 5%; text-align: center;; font-size: 15pt;">
             {#<a href="{{ path('kayue_wordpress_shortcode_gallery', {'id': before.id}) }}">«</a>#}
-            <a href="{{ path('kayue_wordpress_shortcode_gallery', {'id': before.id}) }}">«</a>
+            <a href="#">«</a>
         </div>
     {% endif %}
     {% if after is not empty %}
         <div style="float: right; width: 5%; text-align: center; font-size: 15pt;">
             {#<a href="{{ path('kayue_wordpress_shortcode_gallery', {'id': after.id}) }}">»</a>#}
-            <a href="{{ path('kayue_wordpress_shortcode_gallery', {'id': after.id}) }}">»</a>
+            <a href="#">»</a>
         </div>
     {% endif %}
     <img src="{{ current.guid }}" style="max-width: 90%" />
