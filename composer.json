@@ -1,5 +1,5 @@
 {
-    "name": "kayue/kayue-wordpress-bundle",
+    "name": "vortexgin/kayue-wordpress-bundle",
     "type": "symfony-bundle",
     "description": "Support for authenticating WordPress users in Symfony2.",
     "keywords":    [
