@@ -1,11 +1,11 @@
 {
-    "name": "kayue/kayue-wordpress-bundle",
+    "name": "vortexgin/kayue-wordpress-bundle",
     "type": "symfony-bundle",
     "description": "Support for authenticating WordPress users in Symfony2.",
     "keywords":    [
         "authentication", "firewall", "wordpress", "symfony", "symfony2", "security"
     ],
-    "homepage": "http://github.com/kayue/KayueWordpressBundle",
+    "homepage": "http://github.com/vortexgin/KayueWordpressBundle",
     "license": "MIT",
 
     "require": {
@@ -21,5 +21,5 @@
             "Kayue\\WordpressBundle": ""
         }
     },
-    "target-dir": "Kayue/WordpressBundle"
+    "target-dir": "vortexgin/WordpressBundle"
 }
