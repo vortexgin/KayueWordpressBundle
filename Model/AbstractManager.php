@@ -26,6 +26,11 @@ abstract class AbstractManager
     protected $entityManager;
 
     /**
+     * @var string
+     */
+    protected $class = "_";
+
+    /**
      * @param Container $container
      */
     public function __construct(Container $container)
